@@ -3,13 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>wusc.edu.common</groupId>
-		<artifactId>edu-common-parent</artifactId>
+		<groupId>com.belongtou</groupId>
+		<artifactId>edu-parent</artifactId>
 		<version>1.0-SNAPSHOT</version>
-		<relativePath>../edu-common-parent</relativePath>
 	</parent>
 
-	<groupId>wusc.edu.demo</groupId>
+	<groupId>com.belongtou.demo</groupId>
 	<artifactId>edu-demo</artifactId>
 	<version>${edu-demo.version}</version>
 	<packaging>war</packaging>
@@ -270,14 +269,14 @@
 			<artifactId>jsoup</artifactId>
 		</dependency>
 		<!-- Others End -->
-		
+
 		<!-- Mysql Driver Begin -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
 		<!-- Mysql Driver End -->
-		
+
 
 	</dependencies>
 
